@@ -1,0 +1,29 @@
+{
+  "appId": "com.hermes.webui",
+  "appName": "Hermes",
+  "webDir": "www",
+  "server": {
+    "url": "http://100.110.11.93:8787",
+    "cleartext": true,
+    "allowNavigation": [
+      "100.110.11.93:*",
+      "192.168.100.*",
+      "127.0.0.1:*",
+      "localhost:*"
+    ]
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "",
+      "keystoreAlias": ""
+    },
+    "allowMixedContent": true,
+    "backgroundColor": "#111111"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000,
+      "backgroundColor": "#111111"
+    }
+  }
+}
